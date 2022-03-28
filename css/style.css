@@ -1,0 +1,150 @@
+.header{
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	width: 1500px;
+
+}
+.logo-div{
+	display: flex;
+	width: 195px;
+	justify-content: space-around;
+	
+}
+.logo{
+	display: flex;
+	justify-content: flex-end;
+	font-size: 32px;
+	font-weight: bold;
+	color: #3D37F1;
+
+}
+.log2{
+	display: flex;
+	justify-content: flex-end;
+	font-size: 32px;
+	font-weight: lighter;
+	color: #4B647E;
+
+}
+.navigation{
+	display: flex;
+	justify-content:flex-end;
+	text-align: right;
+	width: 581px;
+	height: 20px;
+
+}
+.list{
+	display: flex;
+	justify-content: space-around;
+	display: inline-block;
+
+}
+.li1{
+	display: flex;
+	justify-content: space-around;
+	display: inline-block;
+	margin-right:20px ;
+	font-size: 20px;
+	color: #3D37F1;
+	font-weight: bold;
+
+}
+.first-section{
+	display: flex;
+	width: 1500px;
+	justify-content: center;
+
+}
+.main-heading{
+	display: inline-flex;
+	width:600px;
+	font-size:78px;
+	font-weight:bold;
+}
+.section-text{
+	display: flex;
+	width: 600px;
+	font-size: 22px;
+	color: #534D4D;
+}
+.text-div{
+	display: flex;
+
+}
+.img-div{
+	display: flex;
+}
+.hand{
+	display: flex;
+	width: 260px;
+	height: 76px;
+	background: blue;
+	justify-content: center;
+
+}
+.wave-text{
+	display: flex;
+	font-size: 23px;
+	color:#FFFFFF;
+	justify-self: center;
+}
+
+
+.container{
+/*	display: flex;
+*/	width: 1300px;
+/*	justify-content: center;
+*/
+	margin: 0 auto;
+	background:#FBFCFD;
+}
+.text-block {
+	width: 712px;
+	margin: 0 auto;
+	text-align: center;
+}
+.bottom-heading{
+	display: flex;
+	justify-content: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #3D37F1;
+
+}
+.bottom-heading2{
+	display: flex;
+	justify-content: center;
+	font-size: 40px;
+	color: #5A5454;
+}
+.bottom-text{
+	display: flex;
+	justify-content: center;
+	font-size: 18px;
+	color: #747474;
+	width: 712px;
+	text-align: center;
+}
+.line1 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.block{
+	display: flex;
+	background: blueviolet;
+	width: 370px;
+	height: 451px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.second-block{
+	background: green;
+	width: 370px;
+	height: 200px;
+	flex-direction: column;
+
+}
