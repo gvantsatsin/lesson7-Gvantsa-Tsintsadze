@@ -17,14 +17,17 @@
 .logo{
 	display: flex;
 	justify-content: flex-end;
+	font-family: 'Lato', sans-serif;
 	font-size: 32px;
 	font-weight: bold;
 	color: #3D37F1;
+
 
 }
 .log2{
 	display: flex;
 	justify-content: flex-end;
+	font-family: 'Lato', sans-serif;
 	font-size: 32px;
 	font-weight: lighter;
 	color: #4B647E;
@@ -51,6 +54,7 @@
 	display: inline-block;
 	margin-right:20px ;
 	font-size: 20px;
+	font-family: 'Lato', sans-serif;
 	color: #3D37F1;
 	font-weight: bold;
 
@@ -64,6 +68,7 @@
 .main-heading{
 	display:flex;
 	width:600px;
+	font-family: 'Lato', sans-serif;
 	font-size:78px;
 	font-weight:bold;
 
@@ -71,8 +76,11 @@
 .section-text{
 	display: flex;
 	width: 600px;
+	font-family: 'Roboto', sans-serif;
 	font-size: 22px;
 	color: #534D4D;
+	margin-top: 42px;
+	margin-bottom:106px ;
 }
 .text-div{
 	display: flex;
@@ -116,20 +124,24 @@
 .bottom-heading{
 	display: flex;
 	justify-content: center;
+	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	font-weight: bold;
 	color: #3D37F1;
-
+	margin-top: 200px;
 }
 .bottom-heading2{
 	display: flex;
 	justify-content: center;
+	font-family: 'Lato', sans-serif;
 	font-size: 40px;
 	color: #5A5454;
+	margin: 17px 0 21px 0;
 }
 .bottom-text{
 	display: flex;
 	justify-content: center;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	color: #747474;
 	width: 712px;
@@ -142,20 +154,14 @@
 }
 .block{
 	display: flex;
-	background: blueviolet;
 	width: 370px;
 	height: 451px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
-.second-block{
-	background: green;
-	width: 370px;
-	height: 200px;
-	flex-direction: column;
 
-}
 .read-more{
 	display: flex;
 	background: white;
@@ -163,7 +169,54 @@
 	height: 45px;
 	align-items: center;
 	justify-content: center;
+	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
-
 	border-radius: 23px;
+}
+.read-more:hover {
+	background: red;
+	font-size: 20px;
+}
+
+.block:nth-child(1){
+	background: #FBBA77;
+	margin-top: 67px;
+	margin-bottom: 60px;
+}
+.block:nth-child(2){
+	background: #41EAE3;
+	margin-top: 67px;
+	margin-bottom: 60px;
+}
+.block:nth-child(3){
+	background: #69529F;
+	margin-top: 67px;
+	margin-bottom: 60px;
+}
+.block:nth-child(4){
+	background: #4386D2;
+}
+.block:nth-child(5){
+	background: #A5A2F6;
+}
+.block:nth-child(6){
+	background: #FF8088;
+}
+.website-text{
+	font-size:22px;
+	color: #FFFFFF;
+	font-family: 'Lato', sans-serif;
+	margin-top: 60px;
+}
+
+.website-text2{
+	display: flex;
+	justify-content: center;
+	width: 300px;
+	height: 62px;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	color: #FFFFFF;
+
 }
